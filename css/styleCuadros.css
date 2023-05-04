@@ -1,0 +1,589 @@
+
+
+
+*{
+padding: 0;
+margin: 0;
+}
+
+/*reservadas*/
+
+body{
+	background-image: url(../img/BSK_Electro.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: steelblue;
+	}
+
+h1{
+	font-family: DESTRUCCION;
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 80px;
+	color: lightslategray;
+	text-shadow: 3px 3px 5px orangered;
+}
+
+
+figure{position: relative;}
+
+figure:hover figcaption{display: block;}
+
+
+
+figcaption{
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: rgba(0, 102, 204, 0.7);
+	text-align: center;
+	padding-top: 20%;
+	font: 20px Verdana;
+	color: white;
+}
+
+@font-face{
+	font-family: DESTRUCCION;
+	src: url(../fonts/DESTRUCCION.ttf);
+
+	}
+/*estilos*/
+
+
+
+.Cuadro1{
+		position: absolute;
+		top: 20%;
+		left: 5%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 20%;
+		left: 39%;
+		width: 300px;
+		height: 150px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 20%;
+		left: 73%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 10px;
+		left: 38%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				/*border-radius: 40px;*/	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}	
+
+.Pie{
+	width: 100%;
+	background-color: #1A284D;
+	color: #fff;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	bottom: 0px;
+	position: absolute;
+	z-index: 4;
+	}	
+
+.Pie a{
+	text-decoration:none;
+	font-family: Wonton;
+	font-size: 20px;
+	color: #ff0
+}
+
+
+/**** responsivo 1367 x 1681 ****/
+
+@media (min-width: 1367px) and (max-width:1681px){
+
+	.Cuadro1{
+		position: absolute;
+		top: 20%;
+		left: 5%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 20%;
+		left: 39%;
+		width: 300px;
+		height: 150px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 20%;
+		left: 73%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 10px;
+		left: 38%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				/*border-radius: 40px;*/	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}
+}/*cierre media*/
+
+/**** responsivo 1281 x 1366 ****/
+
+@media (min-width: 1281px) and (max-width:1366px){
+
+.Cuadro1{
+		position: absolute;
+		top: 20%;
+		left: 5%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 20%;
+		left: 39%;
+		width: 300px;
+		height: 150px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 20%;
+		left: 73%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 10px;
+		left: 38%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				/*border-radius: 40px;*/	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}	
+
+}/*cierre media*/
+
+/**** responsivo 1025 x 1280 ****/
+
+@media (min-width: 1025px) and (max-width:1280px){
+
+.Cuadro1{
+		position: absolute;
+		top: 20%;
+		left: 5%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 20%;
+		left: 39%;
+		width: 300px;
+		height: 150px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 20%;
+		left: 73%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 30px;
+		left: 38%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				
+				z-inde x: 3;
+				width:91%; 
+				height:195px;
+				}	
+				
+
+
+}/*cierre media*/
+
+
+/**** responsivo 812 x 1025 ****/
+
+@media (min-width: 812px) and (max-width:1025px){
+
+body{background-repeat: repeat;	}
+
+.Cuadro1{
+		position: absolute;
+		top: 20%;
+		left: 5%;
+		width: 250px;
+		height: 186px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 20%;
+		left: 38%;
+		width: 250px;
+		height: 126px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 20%;
+		left: 70%;
+		width: 250px;
+		height: 186px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 10px;
+		left: 35%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				/*border-radius: 40px;*/	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}	
+}/*cierre media*/
+
+/**** responsivo 800 x 811 ****/
+
+@media (min-width: 800px) and (max-width:811px){
+
+figcaption{	padding-top: 10%;}
+
+body{background-repeat: repeat;	}
+
+h1{padding-top: 30px;}
+
+.Cuadro1{
+		position: absolute;
+		top: 15%;
+		left: 5%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 15%;
+		left: 55%;
+		width: 300px;
+		height: 150px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 40%;
+		left: 53%;
+		width: 300px;
+		height: 225px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 70px;
+		left: 28%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;
+				/*border-radius: 40px;*/	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}	
+
+}/*cierre media*/
+
+
+/**** responsivo 0 x 799 ****/
+
+
+
+@media (max-width:799px){
+
+h1{padding-top: 10px;
+	font-size: 65px;
+}
+
+figcaption{	padding-top: 10%;}
+
+body{background-repeat: repeat;	}
+
+.Cuadro1{
+		position: absolute;
+		top: 11%;
+		left: 2%;
+		width: 150px;
+		height: 112px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro1 img{width: 100%;}
+
+.Cuadro2{
+		position: absolute;
+		top: 15%;
+		left: 52%;
+		width: 150px;
+		height: 76px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro2 img{width: 100%;}
+
+
+.Cuadro3{
+		position: absolute;
+		top: 30%;
+		left: 14%;
+		width: 250px;
+		height: 187px;
+		background-color: white;
+		border: 5px solid gray;
+		box-shadow: 5px 5px 6px black;		
+		}
+
+.Cuadro3 img{width: 100%;}	
+
+.TV{
+		position: absolute;
+		bottom: 10px;
+		left: 1%;
+		width: 350px;
+		min-height: 300px;
+		z-index: 2;
+		}
+
+.TV img{
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			}
+
+.TV iframe{
+				position: absolute;
+				bottom: 95px;
+				left: 16px;	
+				z-index: 3;
+				width:91%; 
+				height:195px;
+				}	
+
+
+
+}/*cierre media*/

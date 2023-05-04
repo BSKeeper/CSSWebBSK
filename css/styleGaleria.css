@@ -1,0 +1,278 @@
+*{
+padding: 0;
+margin: 0;
+}
+/*reservadas*/
+
+body{
+	background-image: url(../img/BSK_Fuego.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+	background-color: steelblue;
+	}
+
+h1{
+	font-family: District;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 100px;
+	color: rgb(46, 73, 100);
+	text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+
+
+
+/*estilos personalizados*/
+
+.Candado{
+	clear: both;
+	}
+
+.BarraMenu{
+		position: relative;
+		width: 100%;
+		background-color: black;
+		z-index: 1;
+		}
+
+		.CajaLogo{
+			position: relative;
+			width: 200px;
+			max-height: 45px;
+			
+			float: left;
+			padding-left: 10px;
+			padding-top: 5px;
+			box-sizing: border-box;
+			z-index: 2;
+		}			
+
+.CajaLogo img{
+		max-height: 45px;
+		}
+
+.CajaMenu{
+			width: 50%;
+			height: 60px;
+			float: right;
+			text-align: right;
+			padding-right: 10px;
+			box-sizing: border-box;
+			line-height: 60px;
+			color: white;
+			
+		}
+
+.CajaMenuH{display: none;}
+
+.CajaMenu a{
+	color: yellow;
+	text-decoration:none;
+	}
+
+.CajaMenu a:hover{background-color: red;}
+
+.SliderFrame{
+			padding: 30px;
+			width: 100%;
+			margin: auto;
+			height: 900px;
+			overflow: hidden;
+			}
+
+.SliderFrame ol{
+			padding: 0;
+			display: flex;
+			width: 200%;
+			animation: SliderFrame 40s infinite; 
+			}
+
+
+.SliderFrame li{
+			width: 50%;
+			list-style: none;
+			}
+
+.SliderFrame img{
+			width: 100%;
+			max-height: 300px;
+			}
+
+@keyframes SliderFrame{
+		0%{margin-left: 0;}
+		100%{margin-left: -100%}
+		}
+
+
+.Pie{
+	width: 100%;
+		background-color: #1A284D;
+		color: #fff;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		font-size: 15px;
+		
+		}
+		
+		
+.Pie a{
+	text-decoration:none;
+	font-family: Wonton;
+	font-size: 20px;
+	color: #ff0
+		}
+
+/**** responsivo 1367 a 1681 ****/
+
+@media (min-width: 1367px) and (max-width:1681px){
+
+
+
+}/*cierre media*/
+
+/**** responsivo 1281 x 1366 ****/
+
+@media (min-width: 1281px) and (max-width:1366px){
+
+
+
+}/*cierre media*/
+
+/**** responsivo 1025 x 1280 ****/
+
+@media (min-width: 1025px) and (max-width:1280px){
+
+
+
+}/*cierre media*/
+
+
+/**** responsivo 812 x 1025 ****/
+
+@media (min-width: 812px) and (max-width:1025px){
+
+	body{
+		background-repeat: repeat;	
+		background-size: 100%;
+	}
+
+	
+}/*cierre media*/
+
+/**** responsivo 800 x 811 ****/
+
+@media (min-width: 800px) and (max-width:811px){
+
+	body{
+		background-repeat: repeat;	
+		background-size: 100%;
+	}
+
+
+	.SliderFrame{
+		width: 200%;
+		height: 900px;
+		}
+
+	
+}/*cierre media*/
+
+
+/**** responsivo 0 x 799 ****/
+
+@media (max-width:799px){
+
+	body{
+		background-repeat: repeat;	
+		background-size: 100%;
+	}
+
+	.CajaMenu{display: none;}
+
+	.CajaMenuH{
+		width: 100%;
+		display: block;
+	}
+	
+	.CajaMenuH img{
+	
+		height: 60px;
+		padding: 5px;
+		float: right;
+	
+	} 
+	
+	.CajaMenuHLabel{
+	
+	}
+	
+	.CajaMenuHInterna{
+		float: right;
+		position: relative;
+		top: 20px;
+		z-index: 3;
+		border: 5px solid #006;
+		box-shadow: 5px 5px 6px black;
+	}
+	
+	
+	
+	.CajaMenuH input:checked + .CajaMenuHInterna{
+		background-color: #252525;
+		display: block;
+		left: 20px;
+	}
+	
+	.CajaMenuH input, .CajaMenuHInterna{display: none;}
+	
+	.ElementosMenuH{}
+	
+	
+	.CajaMenuHInterna ol{
+		padding: 5px;
+		text-align: justify-all;
+		list-style-type: none;
+		font: 45px Verdana;
+		line-height: 2;
+	
+	}
+	
+	
+	.CajaMenuHInterna li{
+		padding: 2px;
+		border: 5px solid #003;
+		box-shadow: 5px 5px 6px black;
+	}
+	
+	.BarraMenu{
+				background-color: black;
+				}
+	
+	.CajaMenuHInterna a{
+			color: yellow;
+			text-decoration: none;
+			
+			}
+	
+
+
+	h1{
+		font-size: 70px;
+	}
+
+
+
+	.SliderFrame{
+		width: 200%;
+		height: 900px;
+		}
+
+	.SliderFrame img{
+		width: 100%;
+		max-height: 180px;
+		}
+
+
+}/*cierre media*/

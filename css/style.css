@@ -1,0 +1,528 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+
+/*reservadas*/
+
+h2{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+
+h3{
+	font-size: 30px;
+	margin-bottom: 1px;
+	margin-top: 20px;
+}
+
+
+/*estilos*/
+
+.Candado{
+		clear: both;
+		}
+
+
+.Ancho100{
+		width: 100%;
+		}
+
+.TextoBlanco{
+			color: #fff;
+			}
+
+
+.BarraMenu{
+			position: relative;
+			width: 100%;
+			background-color: black;
+			z-index: 1;
+			}
+
+.CajaLogo{
+			position: relative;
+			width: 200px;
+			max-height: 45px;
+			
+			float: left;
+			padding-left: 10px;
+			padding-top: 5px;
+			box-sizing: border-box;
+			z-index: 2;
+		}			
+
+.CajaLogo img{
+		max-height: 45px;
+		}
+
+.CajaMenu{
+			width: 50%;
+			height: 60px;
+			float: right;
+			text-align: right;
+			padding-right: 10px;
+			box-sizing: border-box;
+			line-height: 60px;
+			color: white;
+			
+		}
+
+.CajaMenuH{display: none;}
+
+.CajaMenu a{
+		color: yellow;
+		text-decoration:none;
+		}
+
+.CajaMenu a:hover{background-color: red;}
+
+.CajaGamer{
+			position: relative;
+			width: 100%;
+			min-height: 50px;
+			background-color: #2C4589;
+			text-align: center;
+
+			}
+
+.CajaElementosA{
+				
+				max-width: 1280px;
+				
+				
+				margin-left: auto;
+				margin-right: auto;
+				}
+
+
+.CajaElementosIzq{
+				width: 50%;
+				float: left;
+				}
+
+.BSKElectro{
+			max-height: 450px;
+			padding-top: 3px;
+			}
+
+.CajaElementosDer{
+				width: 50%;
+				padding-top: 7%;
+				min-height: 10px;
+				float: right;
+				box-sizing: border-box;
+				}	
+
+.CajaElementosDer p {
+					color: #fff;
+					text-align: justify;
+					}			
+
+.CajaAzul{
+		width: 100%;
+		text-align: center;
+		color: #fff;
+		}
+
+.CajaAzul img{ 
+			width:80px; 
+			padding: 2%;
+			}
+
+.CajaFavorito{
+				float: left;
+				width: 50%;
+				box-sizing: border-box;
+				padding: 2%;
+				background-color: #1C243C;
+				}
+
+.CajaFavorito p{text-align: justify;}
+
+.CajaPlataforma{
+				float: right;
+				width: 50%;
+				box-sizing: border-box;
+				padding: 2%;
+				background-color: #1A284D;
+				}
+
+.CajaPlataforma p{text-align: justify;}
+
+.Titular{
+		width: 100%;
+		color: #000;
+		text-align: center;
+		padding-top: 40px;
+	
+		background-color: #F8F8F8;
+		}
+
+.Titular h2{
+			padding-top: 26%;
+			color: #000;
+			}
+
+.TitularP{
+		width: 100%;
+		color: #000;
+		text-align: center;
+		padding-top: 4px;
+	
+		background-color: #F8F8F8;
+		}
+
+.TitularP h2{
+			
+			color: #000;
+			}
+
+.CajaReciente{
+				width: 100%;
+				min-height: 50px;
+				text-align: center;
+				}
+
+.CajaRecienteElementos{
+					max-width: 1280px;
+					margin-left: auto;
+					margin-right: auto;
+
+					}
+
+.CajaRecienteElIzq{
+				width: 50%;
+				box-sizing: border-box;
+				padding: 1%;
+				float: left;
+
+				}
+
+.CajaRecienteElIzq img{
+	width: 100%}
+.CajaRecienteElIzq p{text-align: justify;}
+.CajaRecienteElIzq ol{
+	text-align: center;
+	list-style-position: inside;
+}
+
+.CajaRecienteElDer{
+				width: 50%;
+				box-sizing: border-box;
+				padding: 1%;
+				float: right;
+				text-align: left;
+				}
+
+.CajaRecienteElDer img{max-height: 472px}
+
+.CajaRecienteElDer ol{
+		
+		padding-top: 5px;
+		padding-left: 20px;
+		}
+
+.CajaRecienteElDer p{text-align: justify;}
+
+.Pie{
+	width: 100%;
+	background-color: #1A284D;
+	color: #fff;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+
+}
+
+
+.Pie a{
+	font-family: Wonton;
+	font-size: 20px;
+	color: #ff0
+}
+
+
+/*Animaciones Keyframes*/
+
+#idNES{
+	animation-name: AnimarNES;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	}
+
+@Keyframes AnimarNES{
+	0%{transform: translate(0,0);}	
+	50%{transform: translate(0,20px);}
+	100%{transform: translate(0,0);}
+}
+
+#idBtoads{
+	animation-name: AnimarBtoads;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	}
+
+@Keyframes AnimarBtoads{
+	0%{transform: rotate(0);}	
+	100%{transform:rotate(360deg);}
+}
+
+
+
+/**** responsivo 1367 x 1681 ****/
+
+@media (min-width: 1367px) and (max-width:1681px){
+
+	
+.CajaGamer h2, p{padding-left: 10%;}	
+
+
+
+
+
+
+}/*cierre media*/
+
+/**** responsivo 1281 x 1366 ****/
+
+@media (min-width: 1281px) and (max-width:1366px){
+
+
+
+	
+
+}/*cierre media*/
+
+/**** responsivo 1025 x 1280 ****/
+
+@media (min-width: 1025px) and (max-width:1280px){
+
+
+.CajaGamer p{max-width: 600px;}
+
+.CajaRecienteElDer img{max-height: 400px}
+				
+
+
+}/*cierre media*/
+
+
+/**** responsivo 812 x 1025 ****/
+
+@media (min-width: 812px) and (max-width:1025px){
+
+.CajaGamer p{
+	max-width: 480px;
+	padding-left: 20px;
+}
+		
+.CajaGamer img{max-width: 500px;}
+
+.CajaElementosDer{padding-top: 1%;}
+
+.CajaRecienteElDer img{
+	max-width: 510px;
+	padding-top: 8%;
+}
+
+}/*cierre media*/
+
+/**** responsivo 800 x 811 ****/
+
+@media (min-width: 800px) and (max-width:811px){
+
+.CajaGamer img{
+	padding-top: 24%;
+	max-width: 390px;
+}
+
+.CajaGamer p{
+	max-width: 380px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+		
+
+.CajaElementosDer{padding-top: 2%;}	
+
+.CajaFavorito p{padding-bottom: 15px}
+
+.CajaFavorito{max-height: 620px;}
+
+.CajaPlataforma{max-height: 619px;}
+
+.Titular{padding-top: 50px;}
+
+.Titular h2{padding-top: 26%;}
+
+.CajaRecienteElIzq img{padding-top: 15%;}
+
+.CajaRecienteElDer img{
+	max-width: 390px;
+	padding-top: 30%;
+}
+
+}/*cierre media*/
+
+
+/**** responsivo 0 x 799 ****/
+
+
+
+@media (max-width:799px){
+
+.CajaMenu{display: none;}
+
+.CajaMenuH{
+	width: 100%;
+	display: block;
+}
+
+.CajaMenuH img{
+
+	height: 60px;
+	padding: 5px;
+	float: right;
+
+} 
+
+.CajaMenuHLabel{
+
+}
+
+.CajaMenuHInterna{
+	float: right;
+	position: relative;
+	top: 20px;
+	z-index: 3;
+	border: 5px solid #006;
+	box-shadow: 5px 5px 6px black;
+}
+
+
+
+.CajaMenuH input:checked + .CajaMenuHInterna{
+	background-color: #252525;
+	display: block;
+	left: 20px;
+}
+
+.CajaMenuH input, .CajaMenuHInterna{display: none;}
+
+.ElementosMenuH{}
+
+
+.CajaMenuHInterna ol{
+	padding: 5px;
+	text-align: justify-all;
+	list-style-type: none;
+	font: 45px Verdana;
+	line-height: 2;
+
+}
+
+
+.CajaMenuHInterna li{
+	padding: 2px;
+	border: 5px solid #003;
+	box-shadow: 5px 5px 6px black;
+}
+
+.BarraMenu{
+			background-color: black;
+			}
+
+.CajaMenuHInterna a{
+		color: yellow;
+		text-decoration: none;
+		
+		}
+
+
+.CajaGamer img{
+	padding-top: 10%;
+	padding-left: 10%;
+	max-width: 390px;
+}
+
+
+.CajaGamer p{
+	max-width: 380px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	
+}
+	
+.CajaElementosDer{
+	float: left;
+	width: 100%;	
+}
+
+
+.CajaFavorito{
+				float: none;
+				width: 100%;
+				}
+
+
+
+.CajaPlataforma{
+				float: none;
+				width: 100%;
+				}
+
+
+.Titular{
+		display: none;
+
+		}
+
+
+
+
+.CajaRecienteElIzq{
+				width: 100%;
+				padding: 1%;
+				float: none;
+				}
+
+.CajaRecienteElIzq h2{
+		/*width: 100%;*/
+		color: #000;
+		text-align: center;
+		padding-top: 5px;
+		background-color: #F8F8F8;
+}
+
+.CajaRecienteElDer p{
+				width: 95%;
+				padding-left: 10px;
+				}
+
+
+.CajaRecienteElDer{
+				width: 100%;
+				padding: 1%;
+				float: none;
+				text-align: left;
+				}
+
+
+.CajaRecienteElDer img{
+	max-width: 400px;
+}
+
+.CajaRecienteElIzq p{
+	max-width: 95%;
+	padding-left: 10px;
+}
+
+}/*cierre media*/
