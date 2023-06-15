@@ -7,6 +7,8 @@
 	<title>Galería BSK</title>
 
 	<link rel="stylesheet" type="text/css" href="css/styleGaleria.css">
+
+	
 </head>
 <body>
 	<header class="BarraMenu">
@@ -18,7 +20,7 @@
 			<a href="Index.html"> Inicio  </a>|
 			<a href="https://www.youtube.com/@BSKeeper" target="_blank"> Youtube </a>|
 			<a href="https://www.facebook.com/profile.php?id=100064170699276" target="_blank"> BSK Gaming </a>|
-			<a href="#idProximos"> Próximos</a>|
+			<a href="#idAdicionales"> Adicionales</a>|
 			<a href="Cuadros.html"> Especial</a>
 		</nav><!--caja menu fin -->
 	
@@ -79,6 +81,30 @@
 		</ol>
 
 	</section>
+
+	
+
+	<section class="ImgAdicionales" id="idAdicionales"> <!--Segunda parte de la galería-->
+		<div class="ImagenTCompleto" id="cajaImgCompleta">
+			<img src="/img/1.png" id="imgCompleta" alt="">
+			<span onclick="closeImg()"><h2>X</h2></span>
+		</div>
+		<h1><span>Imágenes adicionales</span></h1>
+		<div class="GaleriaImg">
+			<img src="img/galeria1.jpg" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria2.jpg" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria3.png" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria4.png" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria5.png" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria6.jpg" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria7.jpg" onclick="openImg(this.src)" alt="">
+			<img src="img/galeria8.png" onclick="openImg(this.src)" alt="">
+		</div>
+
+	</section>
+
+
+
 	</main>
 
 	
@@ -86,5 +112,7 @@
 	Sitio creado por <a href="https://www.facebook.com/BSKeeper" target="_blank">  BSK </a>
 </footer><!--Pie fin -->
 
+
+<script type="text/javascript" src="js/Galeria.js"></script>
 </body>
 </html>
